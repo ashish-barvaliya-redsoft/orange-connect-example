@@ -1,5 +1,5 @@
-import type { Capability } from "sats-connect";
-import { BitcoinNetworkType, signTransaction } from "sats-connect";
+import type { Capability } from "@orangecrypto/orange-connect";
+import { BitcoinNetworkType, signTransaction } from "@orangecrypto/orange-connect";
 
 import * as btc from "@scure/btc-signer";
 

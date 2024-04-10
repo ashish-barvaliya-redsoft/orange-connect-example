@@ -1,6 +1,6 @@
 import { useState } from "react";
-import type { Capability } from "sats-connect";
-import { BitcoinNetworkType, sendBtcTransaction } from "sats-connect";
+import type { Capability } from "@orangecrypto/orange-connect";
+import { BitcoinNetworkType, sendBtcTransaction } from "@orangecrypto/orange-connect";
 
 type Props = {
   network: BitcoinNetworkType;

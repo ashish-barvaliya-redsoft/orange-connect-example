@@ -1,7 +1,7 @@
 import { base64, hex } from "@scure/base";
 import * as btc from "@scure/btc-signer";
 
-import { BitcoinNetworkType } from "sats-connect";
+import { BitcoinNetworkType } from "@orangecrypto/orange-connect";
 
 export type UTXO = {
   txid: string;
